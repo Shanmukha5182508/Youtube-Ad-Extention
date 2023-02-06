@@ -1,0 +1,64 @@
+body {
+  font-family: Roboto;
+  width: 120px;
+}
+
+.option{
+  width: 85%;
+  padding: 5px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.shortcut {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  font-weight: 600;
+  color: #707070;
+}
+
+.oshortcut {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #707070;
+}
+
+.button-div {
+  align-self: center;
+}
+
+#input {
+  width: 20px;
+  height: 20px;
+  color: transparent;
+  border-width: 3px;
+  border-color: #be1e2d;
+}
+
+#input::placeholder {
+  font-weight: bold;
+  text-align: center;
+}
+
+#input:focus {
+  outline: none !important;
+  border-color: grey;
+}
+
+#input:focus::placeholder {
+  color: transparent;
+}
+
+.skip {
+  color: #be1e2d;
+}
+
+.key {
+  color: grey;
+}
